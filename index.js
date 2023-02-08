@@ -32,6 +32,5 @@ const app = express();
 })();
 app.get("/", async (req, res) => {
    res.send("Successful response.");
-   // Define the chat data
 });
 app.listen(3000, () => console.log("Example app is listening on port 3000."));
